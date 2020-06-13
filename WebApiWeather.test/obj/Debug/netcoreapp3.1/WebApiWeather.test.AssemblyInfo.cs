@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("WebApiWeather, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather", "WebApiWeather.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiWeather.test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

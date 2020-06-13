@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "WebApiWeather.test/1.0.0": {
         "dependencies": {
+          "FluentAssertions": "5.10.3",
+          "Microsoft.AspNetCore.TestHost": "3.1.5",
           "Microsoft.NET.Test.Sdk": "16.2.0",
           "WebApiWeather": "1.0.0",
           "coverlet.collector": "1.0.1",
@@ -19,6 +21,28 @@
         }
       },
       "coverlet.collector/1.0.1": {},
+      "FluentAssertions/5.10.3": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/FluentAssertions.dll": {
+            "assemblyVersion": "5.10.3.0",
+            "fileVersion": "5.10.3.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.TestHost/3.1.5": {
+        "dependencies": {
+          "System.IO.Pipelines": "4.7.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.TestHost.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27105"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/16.2.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -544,6 +568,17 @@
           "System.Threading": "4.0.11"
         }
       },
+      "System.Configuration.ConfigurationManager/4.4.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "System.Console/4.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
@@ -730,6 +765,14 @@
       "System.IO.FileSystem.Primitives/4.0.1": {
         "dependencies": {
           "System.Runtime": "4.1.0"
+        }
+      },
+      "System.IO.Pipelines/4.7.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "4.0.2.1",
+            "fileVersion": "4.700.20.12001"
+          }
         }
       },
       "System.Linq/4.1.0": {
@@ -1091,6 +1134,22 @@
           "System.Threading.Tasks": "4.0.11"
         }
       },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "System.Security.Cryptography.X509Certificates/4.1.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
@@ -1363,6 +1422,20 @@
       "path": "coverlet.collector/1.0.1",
       "hashPath": "coverlet.collector.1.0.1.nupkg.sha512"
     },
+    "FluentAssertions/5.10.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gVPEVp1hLVqcv+7Q2wiDf7kqCNn7+bQcQ0jbJ2mcRT6CeRoZl1tNkqvzSIhvekyldDptk77j1b03MXTTRIqqpg==",
+      "path": "fluentassertions/5.10.3",
+      "hashPath": "fluentassertions.5.10.3.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.TestHost/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o08GfbTytPirpwlNe/mIaGv7yyM+Qf0Ig0dM4Dxmzee4rPRXQl3QlhFGVW8WbtVamUXlskbTloi7lmUVwAihPw==",
+      "path": "microsoft.aspnetcore.testhost/3.1.5",
+      "hashPath": "microsoft.aspnetcore.testhost.3.1.5.nupkg.sha512"
+    },
     "Microsoft.CodeCoverage/16.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1545,6 +1618,13 @@
       "path": "system.componentmodel.typeconverter/4.1.0",
       "hashPath": "system.componentmodel.typeconverter.4.1.0.nupkg.sha512"
     },
+    "System.Configuration.ConfigurationManager/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "path": "system.configuration.configurationmanager/4.4.0",
+      "hashPath": "system.configuration.configurationmanager.4.4.0.nupkg.sha512"
+    },
     "System.Console/4.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1663,6 +1743,13 @@
       "sha512": "sha512-kWkKD203JJKxJeE74p8aF8y4Qc9r9WQx4C0cHzHPrY3fv/L/IhWnyCHaFJ3H1QPOH6A93whlQ2vG5nHlBDvzWQ==",
       "path": "system.io.filesystem.primitives/4.0.1",
       "hashPath": "system.io.filesystem.primitives.4.0.1.nupkg.sha512"
+    },
+    "System.IO.Pipelines/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TyMTasnXQt7U4k13RQ7tA3CrfWEkvWjR635SFfnKVwwMOgClLE5mdHSkG2D13BLIdNwbPTGVQnhQB8Rk7f53Rg==",
+      "path": "system.io.pipelines/4.7.1",
+      "hashPath": "system.io.pipelines.4.7.1.nupkg.sha512"
     },
     "System.Linq/4.1.0": {
       "type": "package",
@@ -1880,6 +1967,13 @@
       "sha512": "sha512-Wkd7QryWYjkQclX0bngpntW5HSlMzeJU24UaLJQ7YTfI8ydAVAaU2J+HXLLABOVJlKTVvAeL0Aj39VeTe7L+oA==",
       "path": "system.security.cryptography.primitives/4.0.0",
       "hashPath": "system.security.cryptography.primitives.4.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
     },
     "System.Security.Cryptography.X509Certificates/4.1.0": {
       "type": "package",

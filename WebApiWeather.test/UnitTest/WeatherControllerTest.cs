@@ -6,6 +6,7 @@ namespace WebApiWeather.test.UnitTest
 {
     public class WeatherControllerTest
     {
+       
         [Fact]
         public void Check_Type_Of_Response()
         {
@@ -19,5 +20,8 @@ namespace WebApiWeather.test.UnitTest
 
             Assert.IsType<WeatherForecast>(response);
         }
+
+       
+
     }
 }

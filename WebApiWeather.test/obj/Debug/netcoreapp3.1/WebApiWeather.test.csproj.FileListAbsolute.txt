@@ -98,3 +98,9 @@ D:\MOF\Projects\WebApiWeather\WebApiWeather.test\obj\Debug\netcoreapp3.1\WebApiW
 D:\MOF\Projects\WebApiWeather\WebApiWeather.test\obj\Debug\netcoreapp3.1\WebApiWeather.test.csproj.CopyComplete
 D:\MOF\Projects\WebApiWeather\WebApiWeather.test\obj\Debug\netcoreapp3.1\WebApiWeather.test.dll
 D:\MOF\Projects\WebApiWeather\WebApiWeather.test\obj\Debug\netcoreapp3.1\WebApiWeather.test.pdb
+D:\MOF\Projects\WebApiWeather\WebApiWeather.test\bin\Debug\netcoreapp3.1\FluentAssertions.dll
+D:\MOF\Projects\WebApiWeather\WebApiWeather.test\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\MOF\Projects\WebApiWeather\WebApiWeather.test\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\MOF\Projects\WebApiWeather\WebApiWeather.test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\MOF\Projects\WebApiWeather\WebApiWeather.test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.TestHost.dll
+D:\MOF\Projects\WebApiWeather\WebApiWeather.test\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
