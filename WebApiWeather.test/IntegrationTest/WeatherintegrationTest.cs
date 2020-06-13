@@ -8,7 +8,7 @@ using Xunit;
 namespace WebApiWeather.test.IntegrationTest
 {
     public class WeatherintegrationTest : integration
-    {
+    {[Fact]
         public async Task Check_statuscode_is_ok()
         {
             //Arrange
@@ -22,7 +22,7 @@ namespace WebApiWeather.test.IntegrationTest
            
 
         }
-
+        [Fact]
         public async Task Check_GetAll_ListNotEmpty()
         {
             //Arrange
