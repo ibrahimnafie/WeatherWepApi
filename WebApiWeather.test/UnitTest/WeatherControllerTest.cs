@@ -18,7 +18,7 @@ namespace WebApiWeather.test.UnitTest
 
             //Assert
 
-            Assert.IsType<string>(response);
+            Assert.IsType<WeatherForecast>(response);
         }
 
 
