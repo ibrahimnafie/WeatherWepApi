@@ -16,7 +16,7 @@ namespace WebApiWeather.test.IntegrationTest
             ////SetupClient
 
             //Act
-            var response = await _client.GetAsync("WeatherForecast");
+            var response = await _client.GetAsync("WeatherForecast/alldays");
 
             //Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -30,7 +30,7 @@ namespace WebApiWeather.test.IntegrationTest
             ////SetupClient
 
             //Act
-            var response = await _client.GetAsync("WeatherForecast");
+            var response = await _client.GetAsync("WeatherForecast/alldays");
 
             //Assert
             (await response.Content.ReadAsStringAsync()).Should().NotBeEmpty();
@@ -44,7 +44,7 @@ namespace WebApiWeather.test.IntegrationTest
             ////SetupClient
 
             //Act
-            var response = await _client.GetAsync("WeatherForecast");
+            var response = await _client.GetAsync("WeatherForecast/alldays");
 
             //Assert
             var strContent = await response.Content.ReadAsStringAsync();
