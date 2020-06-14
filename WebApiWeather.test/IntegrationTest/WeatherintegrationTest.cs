@@ -34,7 +34,7 @@ namespace WebApiWeather.test.IntegrationTest
             var response = await _client.GetAsync("WeatherForecast/alldays");
 
             //Assert
-            (await response.Content.ReadAsStringAsync()).Should().NotBeEmpty();
+            (await response.Content.ReadAsStringAsync()).Should().BeEmpty();
 
         }
 
