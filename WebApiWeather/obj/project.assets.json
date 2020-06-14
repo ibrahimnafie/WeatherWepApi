@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\inafea\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\devin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather\\WebApiWeather.csproj",
+      "projectUniqueName": "D:\\MOF\\Git\\WeatherApi\\WebApiWeather\\WebApiWeather.csproj",
       "projectName": "WebApiWeather",
-      "projectPath": "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather\\WebApiWeather.csproj",
-      "packagesPath": "C:\\Users\\inafea\\.nuget\\packages\\",
-      "outputPath": "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather\\obj\\",
+      "projectPath": "D:\\MOF\\Git\\WeatherApi\\WebApiWeather\\WebApiWeather.csproj",
+      "packagesPath": "C:\\Users\\devin\\.nuget\\packages\\",
+      "outputPath": "D:\\MOF\\Git\\WeatherApi\\WebApiWeather\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\inafea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\devin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

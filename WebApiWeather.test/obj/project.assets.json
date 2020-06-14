@@ -7826,23 +7826,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\inafea\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\devin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather.test\\WebApiWeather.test.csproj",
+      "projectUniqueName": "D:\\MOF\\Git\\WeatherApi\\WebApiWeather.test\\WebApiWeather.test.csproj",
       "projectName": "WebApiWeather.test",
-      "projectPath": "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather.test\\WebApiWeather.test.csproj",
-      "packagesPath": "C:\\Users\\inafea\\.nuget\\packages\\",
-      "outputPath": "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather.test\\obj\\",
+      "projectPath": "D:\\MOF\\Git\\WeatherApi\\WebApiWeather.test\\WebApiWeather.test.csproj",
+      "packagesPath": "C:\\Users\\devin\\.nuget\\packages\\",
+      "outputPath": "D:\\MOF\\Git\\WeatherApi\\WebApiWeather.test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\inafea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\devin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7855,8 +7851,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather\\WebApiWeather.csproj": {
-              "projectPath": "D:\\MOF\\Projects\\WebApiWeather\\WebApiWeather\\WebApiWeather.csproj"
+            "D:\\MOF\\Git\\WeatherApi\\WebApiWeather\\WebApiWeather.csproj": {
+              "projectPath": "D:\\MOF\\Git\\WeatherApi\\WebApiWeather\\WebApiWeather.csproj"
             }
           }
         }
@@ -7910,11 +7906,14 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

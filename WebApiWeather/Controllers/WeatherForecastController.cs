@@ -25,6 +25,7 @@ namespace WebApiWeather.Controllers
         }
 
         [HttpGet]
+        [Route("alldays")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
