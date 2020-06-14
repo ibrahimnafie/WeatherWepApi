@@ -28,6 +28,7 @@ namespace WebApiWeather.test.IntegrationTest
         {
             //Arrange
             ////SetupClient
+            /////
 
             //Act
             var response = await _client.GetAsync("WeatherForecast/alldays");
