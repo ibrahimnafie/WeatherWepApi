@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
@@ -33,6 +34,22 @@ namespace WebApiWeather.test.IntegrationTest
 
             //Assert
             (await response.Content.ReadAsStringAsync()).Should().NotBeEmpty();
+
+        }
+
+        [Fact]
+        public async Task Check_GetAll_MoreThan_One()
+        {
+            //Arrange
+            ////SetupClient
+
+            //Act
+            var response = await _client.GetAsync("WeatherForecast");
+
+            //Assert
+            var strContent = await response.Content.ReadAsStringAsync();
+            var resList = JsonConvert.DeserializeObject<List<WeatherForecast>>(strContent);
+            resList.Count.Should().Be(5);
 
         }
     }
